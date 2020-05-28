@@ -44,7 +44,7 @@ const peopleArray = [
     template utilizing the properties you
     destructured.
 */
-const func1 = ({name, age}) => {
+const introduction = ({name, age}) => {
     console.log(`Hello ${name}, you are ${age} years old.`);
 };
 
@@ -56,5 +56,5 @@ const func1 = ({name, age}) => {
     as an argument.
 */
 for(let person of peopleArray){
-    func1(person);
+    introduction(person);
 }
